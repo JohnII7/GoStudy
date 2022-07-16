@@ -17,12 +17,12 @@ func myFunc(arg interface{}) {
 	}
 }
 
-type Book struct {
+type Book1 struct {
 	auth string
 }
 
 func main() {
-	book := Book{"Golang"}
+	book := Book1{"Golang"}
 	myFunc(book)
 	myFunc("Hello")
 }
